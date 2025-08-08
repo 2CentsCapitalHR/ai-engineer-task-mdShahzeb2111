@@ -1,3 +1,5 @@
+import io
+from docx import Document
 import streamlit as st
 from rag_reviewer import process_files_with_rag
 
@@ -19,3 +21,17 @@ if uploaded_files and api_key and user_query:
             st.write(f"- {c}")
         st.subheader("AI-Generated Review")
         st.write(review)
+
+        # --- Download review as .docx ---
+        doc = Document()
+        doc.add_heading("AI-Generated Review", 0)
+        doc.add_paragraph(review)
+        buffer = io.BytesIO()
+        doc.save(buffer)
+        buffer.seek(0)
+        st.download_button(
+            label="Download Review as .docx",
+            data=buffer,
+            file_name="ai_generated_review.docx",
+            mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        )
