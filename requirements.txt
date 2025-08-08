@@ -1,2 +1,6 @@
 streamlit
 python-docx
+faiss-cpu
+sentence-transformers
+google-generativeai
+numpy
