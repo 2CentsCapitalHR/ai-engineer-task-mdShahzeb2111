@@ -31,12 +31,16 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-### 3. Run the app
+### 3. Run the app(WITHOUT RAG and LLM)
 
-```sh
+```
 streamlit run app.py
 ```
+### 4. Run the app(WITH RAG and LLM)
 
+```
+streamlit run app1.py
+```
 The app will open in your browser at `http://localhost:8501`.
 
 ## Project Structure
@@ -60,5 +64,6 @@ README.md        # This file
 MIT License
 
 ---
+
 
 *Built with Streamlit
