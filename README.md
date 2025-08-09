@@ -46,3 +46,4 @@ It checks for required documents, highlights legal red flags, and generates a st
 *Built with Streamlit, python-docx, FAISS, sentence-transformers, and Gemini.*
 
 
+
