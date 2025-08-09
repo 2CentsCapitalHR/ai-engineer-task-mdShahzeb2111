@@ -1,3 +1,11 @@
+
+
+https://github.com/user-attachments/assets/c5d7b6b8-bfb4-4f37-99bb-b1b1ef8ac004
+
+
+
+https://github.com/user-attachments/assets/375a76f7-1b3d-4751-a414-6e96d4bb1aac
+
 # Corporate Agent — ADGM Doc Reviewer (RAG-powered MVP)
 
 This Streamlit app reviews ADGM-related corporate documents using Retrieval-Augmented Generation (RAG) with Gemini (Google Generative AI).  
@@ -36,4 +44,5 @@ It checks for required documents, highlights legal red flags, and generates a st
 ---
 
 *Built with Streamlit, python-docx, FAISS, sentence-transformers, and Gemini.*
+
 
