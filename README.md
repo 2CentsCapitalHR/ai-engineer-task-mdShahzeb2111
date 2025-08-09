@@ -32,7 +32,8 @@ It checks for required documents, highlights legal red flags, and generates a st
 3. Enter your review question/request.
 4. Click "Run RAG Review".
 5. View the structured JSON summary, retrieved context, and AI-generated review.
-
+6. Download the review file in  .docx format.
 ---
 
 *Built with Streamlit, python-docx, FAISS, sentence-transformers, and Gemini.*
+
